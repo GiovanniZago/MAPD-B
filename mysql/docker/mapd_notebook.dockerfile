@@ -23,4 +23,5 @@ CMD jupyter notebook \
     --port=8888 \
     --no-browser \
     --allow-root \
+    --NotebookApp.disable_check_xsrf=True \
     --NotebookApp.token= 
